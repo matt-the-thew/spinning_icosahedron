@@ -1,10 +1,10 @@
 import * as THREE from 'three';
-
 import { GUI } from 'lil-gui';
 
 const scene = new THREE.Scene();
-const camera = new THREE.PerspectiveCamera( 75, aspectRatio, 0.1, 1000 );
 const aspectRatio = window.innerWidth / window.innerHeight;
+const camera = new THREE.PerspectiveCamera( 75, aspectRatio, 0.1, 1000 );
+
 
 const renderer = new THREE.WebGLRenderer();
 renderer.setSize( window.innerWidth, window.innerHeight );
@@ -38,7 +38,7 @@ gui.add( icosahedronParams, 'icosahedronRotationSpeedZ', 0, 0.1, 0.005 );
 gui.addColor( icosahedronParams, 'icosahedronColor' );
 
 function animate() {
-    icosahedron.rotation.x += icosahedronParams.icosahedrdsoiaswkonRotationSpeedX;
+    icosahedron.rotation.x += icosahedronParams.icosahedronRotationSpeedX;
     icosahedron.rotation.y += icosahedronParams.icosahedronRotationSpeedY;
     icosahedron.rotation.z += icosahedronParams.icosahedronRotationSpeedZ;
     renderer.render( scene, camera );
