@@ -1,0 +1,8 @@
+body { margin: 0; }
+        
+#ui-container {
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            z-index: 100;
+        }
