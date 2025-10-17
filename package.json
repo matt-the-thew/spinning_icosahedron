@@ -6,8 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [three.js, webgl, javascript, graphics],
+  "author": "Matthew Morton",
   "license": "ISC",
   "dependencies": {
     "three": "^0.180.0"
