@@ -1,5 +1,5 @@
 {
-  "name": "rotating_icosahedron",
+  "name": "built-app",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -13,7 +13,6 @@
   },
   "dependencies": {
     "lil-gui": "^0.21.0",
-    "three": "^0.180.0",
-    "vite": "^7.1.7"
+    "three": "^0.180.0"
   }
 }
